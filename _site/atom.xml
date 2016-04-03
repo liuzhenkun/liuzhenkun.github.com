@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>刘振坤的BLOG</title>
- <link href="http://username.github.io/atom.xml" rel="self"/>
- <link href="http://username.github.io"/>
- <updated>2015-08-24T00:34:15+08:00</updated>
- <id>http://username.github.io</id>
+ <title>云且留驻的BLOG</title>
+ <link href="http://liuzhenkun.github.io/atom.xml" rel="self"/>
+ <link href="http://liuzhenkun.github.io"/>
+ <updated>2016-04-03T17:55:42+08:00</updated>
+ <id>http://liuzhenkun.github.io</id>
  <author>
    <name>ZhenKun Liu</name>
    <email>lzk926@gmail.com</email>
@@ -14,11 +14,10 @@
  
  <entry>
    <title>Jekyll Introduction</title>
-   <link href="http://username.github.io/lessons/2011/12/29/jekyll-introduction"/>
+   <link href="http://liuzhenkun.github.io/lessons/2011/12/29/jekyll-introduction"/>
    <updated>2011-12-29T00:00:00+08:00</updated>
-   <id>http://username.github.io/lessons/2011/12/29/jekyll-introduction</id>
-   <content type="html">
-&lt;p&gt;This Jekyll introduction will outline specifically  what Jekyll is and why you would want to use it.
+   <id>http://liuzhenkun.github.io/lessons/2011/12/29/jekyll-introduction</id>
+   <content type="html">&lt;p&gt;This Jekyll introduction will outline specifically  what Jekyll is and why you would want to use it.
 Directly following the intro we’ll learn exactly &lt;em&gt;how&lt;/em&gt; Jekyll does what it does.&lt;/p&gt;
 
 &lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
@@ -430,7 +429,7 @@ As noted, our main programming constraint is the fact that our API is limited to
 
 &lt;h2 id=&quot;next-steps&quot;&gt;Next Steps&lt;/h2&gt;
 
-&lt;p&gt;Please take a look at []()
+&lt;p&gt;Please take a look at &lt;a href=&quot;&quot;&gt;&lt;/a&gt;
 or jump right into &lt;a href=&quot;&quot;&gt;Usage&lt;/a&gt; if you’d like.&lt;/p&gt;
 </content>
  </entry>
