@@ -8,8 +8,8 @@ highlighter: pygments
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : 云且留驻的BLOG
-tagline: Site Tagline
+title : Alex Liu's Tech Blog
+tagline: Site Tagline11
 author :
   name : ZhenKun Liu
   email : lzk926@gmail.com

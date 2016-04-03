@@ -8,4 +8,5 @@ http://liuzhenkun.github.io/rss.xml
 http://liuzhenkun.github.io/sitemap.txt
 http://liuzhenkun.github.io/tags
 
+http://liuzhenkun.github.io/knowledge/2016/04/03/redis-sharing
 http://liuzhenkun.github.io/lessons/2011/12/29/jekyll-introduction

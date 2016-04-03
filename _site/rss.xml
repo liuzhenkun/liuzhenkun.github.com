@@ -1,14 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-        <title>云且留驻的BLOG</title>
-        <description>云且留驻的BLOG - ZhenKun Liu</description>
+        <title>Alex Liu&#39;s Tech Blog</title>
+        <description>Alex Liu&#39;s Tech Blog - ZhenKun Liu</description>
         <link>http://liuzhenkun.github.io</link>
         <atom:link href="http://liuzhenkun.github.io/rss.xml" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Sun, 03 Apr 2016 18:04:08 +0800</lastBuildDate>
-        <pubDate>Sun, 03 Apr 2016 18:04:08 +0800</pubDate>
+        <lastBuildDate>Sun, 03 Apr 2016 20:02:06 +0800</lastBuildDate>
+        <pubDate>Sun, 03 Apr 2016 20:02:06 +0800</pubDate>
         <ttl>60</ttl>
 
+
+        <item>
+                <title>redis sharing</title>
+                <description>&lt;p&gt;Alex is a good boy.&lt;/p&gt;
+
+&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Redis is recommended to use into practice for a good performance.&lt;/p&gt;
+
+</description>
+                <link>http://liuzhenkun.github.io/knowledge/2016/04/03/redis-sharing</link>
+                <guid>http://liuzhenkun.github.io/knowledge/2016/04/03/redis-sharing</guid>
+                <pubDate>Sun, 03 Apr 2016 00:00:00 +0800</pubDate>
+        </item>
 
         <item>
                 <title>Jekyll Introduction</title>
