@@ -4,8 +4,6 @@ title: Welcome
 ---
 {% include JB/setup %}
 
-Contact me on the gitHub: [My Github](https://github.com/liuzhenkun)
-
 ## Introduction
 - I am a software architect from [_BAIDU-百度_](http://www.baidu.com)(_the biggest Chinese search engine in the world_), China.
 - The topics like: the usage and mechanism of famous open source software, designing HA distributed server
@@ -18,6 +16,10 @@ Contact me on the gitHub: [My Github](https://github.com/liuzhenkun)
     {{ post.excerpt | remove: '<p>' | remove: '</p>' }}</li>
   {% endfor %}
 </ul>
+
+## Contact Me
+- GitHub: [My Github](https://github.com/liuzhenkun)
+- Email : _zhenkum.liu@gmail.com_
 
 
 
