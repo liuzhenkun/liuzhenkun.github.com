@@ -7,7 +7,7 @@ title: Welcome
 Contact me on the gitHub: [My Github](https://github.com/liuzhenkun)
 
 ## Introduction
-- I am a software architect from [_BAIDU-百度_](www.baidu.com)(_the biggest Chinese search engine in the world_), China.
+- I am a software architect from [_BAIDU-百度_](http://www.baidu.com)(_the biggest Chinese search engine in the world_), China.
 - The topics like: the usage and mechanism of famous open source software, designing HA distributed server
   side applications, the common used cache skills, tuning performance of jvm hotspot and other related technology stacks.
 
