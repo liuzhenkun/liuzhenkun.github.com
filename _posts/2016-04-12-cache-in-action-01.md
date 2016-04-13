@@ -66,7 +66,7 @@ tags: [cache, redis, memcache]
       - step4 满足条件进入购买流程...购买完成后更新用户余额信息至DB
       - step5 set(userKey, userAccount)
       - 第五步，为了获取用户更新后的账户信息要进行一系列操作，代价较大，所以建议直接delete(key), 造成的影响仅仅是一次cache miss.
-   - 结论：使用delete(key)， 虽然会造成一次cache miss
+   - <font color="red">结论：使用delete(key)， 虽然会造成一次cache miss</font>
 
 - 更新DB与操作缓存的时序
    - 更新DB和delete(key)孰先孰后呢？
@@ -75,20 +75,20 @@ tags: [cache, redis, memcache]
    - 场景一
      - ![state1]({{ site.url }}/files/images/2016-04-12-cache-in-action-01/state1.png)
      - 先更新DB失败，后del缓存成功
-     - 用户再进行查询的时候仅有一次cache miss, 实际不会发生这样的场景。如果更新数据库失败，则不能操作缓存，redis中还会持有原来的旧数据;   failed
+     - 用户再进行查询的时候仅有一次cache miss, 实际不会发生这样的场景。如果更新数据库失败，则不能操作缓存，redis中还会持有原来的旧数据;   <font color="red">FAILED</font>
 
    - 场景二
      - ![state2]({{ site.url }}/files/images/2016-04-12-cache-in-action-01/state2.png)
      - 先更新DB成功，后del缓存失败
-     - 使得DB与缓存中的数据不一致，再次访问缓存时获取到的是旧数据(DB中的数据较新)  failed
+     - 使得DB与缓存中的数据不一致，再次访问缓存时获取到的是旧数据(DB中的数据较新)  <font color="red">FAILED</font>
 
    - 场景三
      - ![state3]({{ site.url }}/files/images/2016-04-12-cache-in-action-01/state3.png)
-     - 先del缓存失败，后更新DB成功， 同场景二  failed
+     - 先del缓存失败，后更新DB成功， 同场景二  <font color="red">FAILED</font>
 
    - 场景四
      - ![state4]({{ site.url }}/files/images/2016-04-12-cache-in-action-01/state4.png)
-     - 先del缓存成功，后更新DB失败， 用户再进行查询的时候仅有一次cache miss
+     - 先del缓存成功，后更新DB失败， 用户再进行查询的时候仅有一次cache miss <font color="purple">PASSED</font>
 
    - 综上所述
    - 正确的时序： 首先delete(key)缓存，其次更新DB，缺点是此过程完成后的第一次查询会造成cache miss。
@@ -123,9 +123,9 @@ tags: [cache, redis, memcache]
 
 # <font color="red">结论</font>：
 
- - 1. <font color="blue">缓存的操作与更新DB之间的顺序问题
+ - <font color="blue">缓存的操作与更新DB之间的顺序问题
      先delete(key), 再更新DB，且两个操作要保持连续；最后再delete(key)</font>
- - 2. <font color="blue">尽量使用集中式缓存，用面向集群的思路去写代码更易于扩展.</font>
+ - <font color="blue">尽量使用集中式缓存，用面向集群的思路去写代码更易于扩展.</font>
 
 
 
