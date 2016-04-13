@@ -4,6 +4,10 @@
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
     {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+
+    <link href="{{ site.url }}/files/images/favicon.ico" rel="shortcut icon">
+    {% if page.keywords %}<meta name="Keywords" content="{{ page.keywords }}">{% endif %}
+
     <meta name="author" content="{{ site.author.name }}">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->

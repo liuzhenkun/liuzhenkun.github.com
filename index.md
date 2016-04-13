@@ -1,6 +1,8 @@
 ---
 layout: page
-title: Welcome
+title: "Welcome"
+description: "技术博客专注与技术分享,包括程序设计,设计模式,缓存策略,技术方案,架构设计,高并发,高可用,高扩展等技术点"
+keywords: "缓存,redis,memcache,java,javaee,j2ee,读多写少,mapdb,架构,rpc,分布式,集群"
 ---
 {% include JB/setup %}
 
