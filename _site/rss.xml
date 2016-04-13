@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
         <title>Alex Liu&#39;s Tech Blog</title>
-        <description>Alex Liu&#39;s Tech Blog - ZhenKun Liu</description>
+        <description>Alex Liu&#39;s Tech Blog - 云且留驻</description>
         <link>http://liuzhenkun.github.io</link>
         <atom:link href="http://liuzhenkun.github.io/rss.xml" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Wed, 13 Apr 2016 17:07:17 +0800</lastBuildDate>
-        <pubDate>Wed, 13 Apr 2016 17:07:17 +0800</pubDate>
+        <lastBuildDate>Wed, 13 Apr 2016 17:17:27 +0800</lastBuildDate>
+        <pubDate>Wed, 13 Apr 2016 17:17:27 +0800</pubDate>
         <ttl>60</ttl>
 
 
