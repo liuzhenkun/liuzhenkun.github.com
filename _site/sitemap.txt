@@ -1,12 +1,12 @@
 
-http://liuzhenkun.github.io/archive
+http://liuzhenkun.github.io/archive.html
 http://liuzhenkun.github.io/atom.xml
-http://liuzhenkun.github.io/categories
-http://liuzhenkun.github.io/
-http://liuzhenkun.github.io/pages
+http://liuzhenkun.github.io/categories.html
+http://liuzhenkun.github.io/index.html
+http://liuzhenkun.github.io/pages.html
 http://liuzhenkun.github.io/rss.xml
 http://liuzhenkun.github.io/sitemap.txt
-http://liuzhenkun.github.io/tags
+http://liuzhenkun.github.io/tags.html
 
 http://liuzhenkun.github.io/cache/2016/04/12/cache-in-action-01
 http://liuzhenkun.github.io/lessons/2011/12/29/jekyll-introduction

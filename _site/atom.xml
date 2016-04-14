@@ -4,7 +4,7 @@
  <title>Alex Liu&#39;s Tech Blog</title>
  <link href="http://liuzhenkun.github.io/atom.xml" rel="self"/>
  <link href="http://liuzhenkun.github.io"/>
- <updated>2016-04-13T18:34:04+08:00</updated>
+ <updated>2016-04-14T22:29:56+08:00</updated>
  <id>http://liuzhenkun.github.io</id>
  <author>
    <name>云且留驻</name>
@@ -620,7 +620,7 @@ As noted, our main programming constraint is the fact that our API is limited to
 
 &lt;h2 id=&quot;next-steps&quot;&gt;Next Steps&lt;/h2&gt;
 
-&lt;p&gt;Please take a look at &lt;a href=&quot;&quot;&gt;&lt;/a&gt;
+&lt;p&gt;Please take a look at []()
 or jump right into &lt;a href=&quot;&quot;&gt;Usage&lt;/a&gt; if you’d like.&lt;/p&gt;
 </content>
  </entry>

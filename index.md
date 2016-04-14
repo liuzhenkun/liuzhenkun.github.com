@@ -20,7 +20,6 @@ keywords: "缓存,redis,memcache,java,javaee,j2ee,读多写少,mapdb,架构,rpc,
 </ul>
 
 ## Contact Me
-- GitHub: [My Github](https://github.com/liuzhenkun)
 - Email : _zhenkum.liu@gmail.com_
 
 

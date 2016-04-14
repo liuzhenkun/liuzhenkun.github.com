@@ -5,8 +5,8 @@
         <description>Alex Liu&#39;s Tech Blog - 云且留驻</description>
         <link>http://liuzhenkun.github.io</link>
         <atom:link href="http://liuzhenkun.github.io/rss.xml" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Wed, 13 Apr 2016 18:34:04 +0800</lastBuildDate>
-        <pubDate>Wed, 13 Apr 2016 18:34:04 +0800</pubDate>
+        <lastBuildDate>Thu, 14 Apr 2016 22:29:56 +0800</lastBuildDate>
+        <pubDate>Thu, 14 Apr 2016 22:29:56 +0800</pubDate>
         <ttl>60</ttl>
 
 
@@ -615,7 +615,7 @@ As noted, our main programming constraint is the fact that our API is limited to
 
 &lt;h2 id=&quot;next-steps&quot;&gt;Next Steps&lt;/h2&gt;
 
-&lt;p&gt;Please take a look at &lt;a href=&quot;&quot;&gt;&lt;/a&gt;
+&lt;p&gt;Please take a look at []()
 or jump right into &lt;a href=&quot;&quot;&gt;Usage&lt;/a&gt; if you’d like.&lt;/p&gt;
 </description>
                 <link>http://liuzhenkun.github.io/lessons/2011/12/29/jekyll-introduction</link>
